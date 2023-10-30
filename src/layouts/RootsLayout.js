@@ -11,11 +11,11 @@ const RootsLayout = () => {
             </div>
             <h3 className='text-black'>BebaBeba</h3>
             <nav className='text-orange-500 hidden md:flex  gap-4  right-0 '>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="about">About</NavLink>
-                <NavLink to="book">Book</NavLink>
-                <NavLink to="parcel">Parcel</NavLink>
-                <NavLink to="contact">Contact</NavLink>
+                <NavLink className="active:bg-orange-500 active:text-white " to="/">Home</NavLink>
+                <NavLink className="active:bg-orange-500 active:text-white " to="about">About</NavLink>
+                <NavLink className="active:bg-orange-500 active:text-white " to="book">Book</NavLink>
+                <NavLink className="active:bg-orange-500 active:text-white " to="parcel">Parcel</NavLink>
+                <NavLink className="active:bg-orange-500 active:text-white " to="contact">Contact</NavLink>
 
             </nav>
             

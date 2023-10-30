@@ -5,9 +5,9 @@ const Home = () => {
     <div className='max-w-[1400px] h-screen  pt-2 ' >
        
         <div className='flex flex-col justify-center items-center w-full p-4 py-8'>
-          <h3 className='text-3xl md:text-4xl'>BebaBeba!!!</h3>
-        <h6 className='text-xl flex-wrap p-4 md:text-6xl'>Welcome Aboard BebaBeba shuttle</h6>
-        <p className='text-lg md:text-4xl'>Take a drive around!</p>
+          <h3 className='text-3xl md:text-4xl text-lime-500 font-bold'>BebaBeba!!!</h3>
+        <h6 className='text-xl flex-wrap p-4 md:text-6xl font-bold text-sky-500'>Welcome Aboard BebaBeba shuttle</h6>
+        <p className='text-lg md:text-4xl text-teal-500'>Take a drive around!</p>
         
         </div>
         <div className='grid md:grid-cols-3 gap-6 max-w-[1400px] h-screen'>
