@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='max-w-[1400px] h-screen pt-2'>
       <div>
-        <h3 className='text-4xl md:text-6xl flex justify-center p-2'>Know About Us:</h3>
+        <h3 className='text-2xl md:text-4xl flex justify-center p-2'>Know About Us:</h3>
         <p>Murang'a BebaBeba vehicles offer a commendable service, ensuring the safe and reliable transportation of people to Nairobi and back. With a strong commitment to passenger safety and comfort, these vehicles have earned a stellar reputation. They boast skilled drivers who navigate the road with precision, providing peace of mind for travelers. Their well-maintained vehicles undergo regular inspections, guaranteeing a secure journey. Not only do they prioritize safety, but they also offer a convenient and efficient mode of travel, contributing to the region's connectivity and accessibility. Murang'a transport vehicles exemplify the essence of dependable, safe, and commendable transportation services to and from Nairobi.</p>
       </div>
       <div className=' sm:flex gap-2' >

@@ -14,6 +14,7 @@ const Contact = () => {
   <input type="text" placeholder='Enter Your Name' className='outline-none w-full border p-2' />
   <input type="text" placeholder='Enter Your Email' className='outline-none w-full border p-2' />
   <textarea name="message" id="" cols="30" rows="5" placeholder='Enter Your Message' className='w-full p-2 outline-none border'></textarea>
+<button className='text-white bg-green-500 font-bold p-2 rounded-lg w-[200px]'>Submit</button>
 </form>
       </div>
 {/**Socials */}
