@@ -2,9 +2,9 @@ import React from 'react'
 
 const Parcel = () => {
   return (
-    <div className='max-w-[1400px] h-screen pt-2'>
+    <div className='max-w-[1400px] h-full text-white bg-cyan-950 pt-2'>
       <div className='flex justify-center'>
-       <h3 className='text-2xl md:text-4xl font-bold'>Parcel Services:</h3>
+       <h3 className='text-2xl md:text-4xl font-bold text-teal-400'>Parcel Services:</h3>
      </div>
      <div className='p-4'>
       <p className=' text-center sm:text-lg'>We are delighted to cater needs of every client of ours in terms of package delivery.</p>
@@ -33,10 +33,10 @@ const Parcel = () => {
 
     </div>
     
-<div className=' items-center'>
+<div className=' items-center p-4'>
   <form action="" className='flex flex-col justify-center items-center'>
     <div className='w-full flex justify-center flex-col '>
-  <h2 className='text-center md:text-2xl font-bold'>Fill out as below:</h2>
+  <h2 className='text-center md:text-2xl font-bold text-teal-400'>Fill out as below:</h2>
   
   <div className='grid md:grid-cols-2 w-full items-center justify-center'>
     <div>
@@ -65,7 +65,7 @@ const Parcel = () => {
   </div>
  
  <div className='flex flex-col justify-center items-center'>
-      <h3 className='text-2xl border-b-2 border-teal-500 font-bold'>Below is our Package rates:</h3>
+      <h3 className='text-2xl border-b-2 border-teal-500 text-teal-400 font-bold'>Below is our Package rates:</h3>
       <div >
         <table className=' m-2 border-gray-400 w-[300px] table-auto border'>
           <th className='border p-2 border-gray-400 border-collapse'>Location</th>

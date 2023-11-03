@@ -2,10 +2,10 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='max-w-[1400px] h-screen pt-2'>
+    <div className='max-w-[1400px] h-full bg-cyan-950 text-white pt-2'>
       <div>
-        <h3 className='text-2xl md:text-4xl flex justify-center p-2'>Know About Us:</h3>
-        <p>Murang'a BebaBeba vehicles offer a commendable service, ensuring the safe and reliable transportation of people to Nairobi and back. With a strong commitment to passenger safety and comfort, these vehicles have earned a stellar reputation. They boast skilled drivers who navigate the road with precision, providing peace of mind for travelers. Their well-maintained vehicles undergo regular inspections, guaranteeing a secure journey. Not only do they prioritize safety, but they also offer a convenient and efficient mode of travel, contributing to the region's connectivity and accessibility. Murang'a transport vehicles exemplify the essence of dependable, safe, and commendable transportation services to and from Nairobi.</p>
+        <h3 className='text-4xl md:text-xl flex justify-center p-2 font-bold text-teal-400'>Know About Us:</h3>
+        <p className='text-white'>Murang'a BebaBeba vehicles offer a commendable service, ensuring the safe and reliable transportation of people to Nairobi and back. With a strong commitment to passenger safety and comfort, these vehicles have earned a stellar reputation. They boast skilled drivers who navigate the road with precision, providing peace of mind for travelers. Their well-maintained vehicles undergo regular inspections, guaranteeing a secure journey. Not only do they prioritize safety, but they also offer a convenient and efficient mode of travel, contributing to the region's connectivity and accessibility. Murang'a transport vehicles exemplify the essence of dependable, safe, and commendable transportation services to and from Nairobi.</p>
       </div>
       <div className=' sm:flex gap-2' >
         <div className='flex md:h-[500px] w-full p-2 relative pb-2'>
@@ -24,10 +24,10 @@ const About = () => {
         </div>
         
       </div>
-      <p className='p-2'>We offer safe, reliable and affordable transportation to and fro the big city.  </p>
+      <p className='p-2 text-white'>We offer safe, reliable and affordable transportation to and fro the big city.  </p>
    <div className='grid md:grid-cols-2 p-2 gap-6 '>
     
-      <p>The dedicated staff behind the scenes of our transportation systems deserve our heartfelt appreciation for their unwavering commitment to ensuring the safe, secure, and efficient movement of people and goods. These unsung heroes work tirelessly to keep our world connected and our lives enriched.
+      <p className='text-white'>The dedicated staff behind the scenes of our transportation systems deserve our heartfelt appreciation for their unwavering commitment to ensuring the safe, secure, and efficient movement of people and goods. These unsung heroes work tirelessly to keep our world connected and our lives enriched.
 
 For those responsible for transporting people, their meticulous attention to detail, rigorous training, and constant dedication have made our journeys faster, more secure, and incredibly safe. From pilots soaring through the skies to train conductors guiding us on our way, and bus drivers ensuring we reach our destinations, these professionals demonstrate excellence in their roles daily.
 
@@ -43,7 +43,7 @@ In every corner of the transportation industry, these professionals work diligen
     <div className='border rounded-full w-[200px] h-[200px] md:w-[400px] md:h-[400px] ml-8'>
       <img className='object-cover rounded-full w-full h-full  ' src="https://img.freepik.com/premium-photo/modern-societal-dynamics_810293-2306.jpg" alt="executives" />
     </div>
-      <p>The executive team that steers a company's financial ship deserves unreserved praise for their invaluable contributions in keeping the organization afloat. These dedicated leaders are the backbone of financial stability and success, navigating turbulent economic waters with wisdom, strategy, and resilience.
+      <p className='text-white'>The executive team that steers a company's financial ship deserves unreserved praise for their invaluable contributions in keeping the organization afloat. These dedicated leaders are the backbone of financial stability and success, navigating turbulent economic waters with wisdom, strategy, and resilience.
 
 Their expertise in financial planning, risk management, and decision-making is the cornerstone upon which a company's fiscal health is built. Their visionary leadership, sound judgment, and commitment to fiscal responsibility ensure not only survival but also growth, innovation, and prosperity.
 
