@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
-import {AiOutlineMenu} from 'react-icons/ai'
+import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 const RootsLayout = () => {
+    const [nav,setNav] = useState(false)
+    
   return (
     <div className='max-w-[1400px] h-screen flex flex-col pt-2 mx-auto p-2  '>
         
         <header className='flex justify-between '>
-            <div>
+            <div className='cursor-pointer' onClick={()=>setNav(!nav)}>
                 <AiOutlineMenu className='' size={30}/>
             </div>
             <h3 className='text-black'>BebaBeba</h3>
@@ -18,6 +20,17 @@ const RootsLayout = () => {
                 <NavLink className="active:bg-orange-500 active:text-white " to="contact">Contact</NavLink>
 
             </nav>
+            <div className={nav ? "hidden   top-0 left-0 fixed w-[250px] duration-300 h-screen z-10": "top-0  left-[-100] duration-300" } >
+                <AiOutlineClose className='cursor-pointer'  onClick={()=>setNav(!nav)} size={30}/>
+            
+                    <NavLink className="flex flex-col"  to="/">Home</NavLink>
+                <NavLink className="flex flex-col"  to="about">About</NavLink>
+                <NavLink className="flex flex-col"  to="book">Book</NavLink>
+                <NavLink className="flex flex-col"  to="parcel">Parcel</NavLink>
+                <NavLink className="flex flex-col"  to="contact">Contact</NavLink>
+                
+
+            </div>
             
         </header>
         
