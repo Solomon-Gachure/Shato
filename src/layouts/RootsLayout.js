@@ -20,14 +20,14 @@ const RootsLayout = () => {
                 <NavLink className="active:bg-orange-500 font-bold active:text-white " to="contact">Contact</NavLink>
 
             </nav>
-            <div className={!nav ? "hidden   top-0 left-0 fixed w-[250px] duration-300 h-screen z-10": "top-0  left-[-100] duration-300" } >
+            <div className={!nav ? "hidden   top-0 left-0 fixed w-[250px] duration-300 h-screen z-10": "top-0 p-4 h-full w-[300px] z-50 bg-cyan-950 fixed text-2xl duration-300" } >
                 <AiOutlineClose className='cursor-pointer text-white'  onClick={()=>setNav(!nav)} size={30}/>
             
-                <NavLink className="flex flex-col text-orange-500"  to="/">Home</NavLink>
-                <NavLink className="flex flex-col text-orange-500"  to="about">About</NavLink>
-                <NavLink className="flex flex-col text-orange-500"  to="book">Book</NavLink>
-                <NavLink className="flex flex-col text-orange-500"  to="parcel">Parcel</NavLink>
-                <NavLink className="flex flex-col text-orange-500"  to="contact">Contact</NavLink>
+                <NavLink className="flex flex-col text-orange-500 text-2xl p-2"  to="/">Home</NavLink>
+                <NavLink className="flex flex-col text-orange-500 text-2xl p-2"  to="about">About</NavLink>
+                <NavLink className="flex flex-col text-orange-500 text-2xl p-2"  to="book">Book</NavLink>
+                <NavLink className="flex flex-col text-orange-500 text-2xl p-2"  to="parcel">Parcel</NavLink>
+                <NavLink className="flex flex-col text-orange-500 text-2xl p-2"  to="contact">Contact</NavLink>
                 
 
             </div>
